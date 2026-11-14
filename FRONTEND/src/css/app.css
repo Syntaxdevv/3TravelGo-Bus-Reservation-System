@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "DM Sans", sans-serif;
+    --color-admin-navy: #0B2545;
+    --color-admin-blue: #1765E8;
+    --color-staff-navy: #172B4D;
+    --color-staff-orange: #EA580C;
+    --color-app-bg: #F2F6FC;
+    --color-staff-bg: #F8FAFC;
+}

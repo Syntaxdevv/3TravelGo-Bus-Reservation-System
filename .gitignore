@@ -1,0 +1,34 @@
+
+# Dependencies
+**/node_modules/
+BACKEND/vendor/
+
+# Environment files
+.env
+.env.*
+!.env.example
+BACKEND/env
+
+# Build files
+FRONTEND/dist/
+FRONTEND/build/
+dist/
+build/
+FRONTEND/tsconfig.tsbuildinfo
+
+# CodeIgniter writable files
+BACKEND/writable/cache/*
+BACKEND/writable/logs/*
+BACKEND/writable/session/*
+BACKEND/writable/uploads/*
+BACKEND/writable/debugbar/debugbar_*.json
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
